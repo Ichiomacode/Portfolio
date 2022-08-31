@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+  background-color: rgb(44, 45, 48);
+}
+
+.MEEE {
+  border-bottom: 1px solid rgb(71, 71, 71);
+  margin-bottom: 10px;
+  font-weight: bolder;
+    font-size: large;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-shadow: 2px 2px saddlebrown;
+
+
+}
+
+.MEEE a,
+.nav-item a {
+  padding: 10px 5px;
+  color: #f4f4f4;
+  display: block;
+  text-decoration: none;
+  transition: all 200ms ease-in;
+}
+
+.MEEE a:hover,
+.nav-item a:hover {
+  background-color: rgb(33, 33, 36);
+}
+
+.nav-menu .nav-menu-list {
+  list-style: none;
+}
+.details ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+color: maroon;
+
+}
+.list-item{
+    list-style: none;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+  body {
+      background-image:url('../assets/14.jpg') ;
+      background-size:100%;
+    }
+  
+  
+  nav,
+  .nav-menu-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  .MEEE {
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+  }
+
+  .MEEE a,
+  .nav-item a {
+    padding: 20px 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  nav {
+    width: 80%;
+    margin: 0 auto;
+  }
+  body {
+           background-size:80%;
+  }
+}
+ #main{
+  background-color: #EADDCA;
+  color: rgb(140,61,61);
+  text-align: center;
+  position: relative;
+ }
+ .image{
+  width: 300px;
+  border-radius: 15px;
+  margin-bottom: 5rem;
+  box-shadow: 10px 10px rgb(68, 27, 27);
+ }
+ .my-journey{
+  text-align: center;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+ }
+ .radius{
+  border-radius: 45%;
+  color: brown;
+  background-color: white;
+  width: 150px;
+  min-height: 80px;
+  min-width: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;      
+  margin-top: 350px;
+ }
+ .story{
+  line-height:50px ;
+  font-size: x-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',;
+  margin-left: 100px;
+ }
